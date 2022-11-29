@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fylo Sotrage Data Component</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="d-flex align-items-center vh-100">
+        <div class="container">
+          <div class="row gap-lg-3">
+            <div class="col-12 col-lg-4 dk p-5 fold">
+              <img src="./images/logo.svg" class="d-block mb-5" alt="" />
+              <div
+                class="d-inline-block vdb p-2 rounded me-3 text-center"
+                style="width: 40px; height: 40px"
+              >
+                <img src="./images/icon-document.svg" alt="" />
+              </div>
+              <div
+                class="d-inline-block vdb p-2 rounded me-3"
+                style="width: 40px; height: 40px"
+              >
+                <img src="./images/icon-folder.svg" alt="" />
+              </div>
+              <div
+                class="d-inline-block vdb p-2 rounded"
+                style="width: 40px; height: 40px"
+              >
+                <img src="./images/icon-upload.svg" alt="" />
+              </div>
+            </div>
+            <div
+              class="col-12 col-lg-7 dk text-white p-5 align-self-lg-end rounded-3 position-relative"
+            >
+              <p class="text-muted">
+                You’ve used <strong class="text-white">815 GB</strong>  of your
+                storage
+              </p>
+              <p class=" d-flex align-items-center py-2 px-3 text-bg-light d-inline position-absolute rounded-3" style="top: -30px; left:370px;">
+                <strong class="text-dark fs-2 me-2">185</strong> 
+                <small class="text-muted fw-bold" style=" font-size:12px;">GB LEFT</small>
+            </p>
+              <div class="progress rounded-3 mb-2 vdb">
+                <div
+                  class="progress-bar rounded-3 position-relative gd"
+                  style="width: 75%"
+                  role="progressbar"
+                  aria-label="Basic example"
+                  aria-valuenow="0"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <div class="bg-white rounded-circle position-absolute" style="width: 14px; height: 14px; left: 332px;"></div>
+                </div>
+              </div>
+              <div class=" d-flex justify-content-between">
+                <small class=" pb fw-bold">0 GB</small>
+              <small class=" pb fw-bold">1000 GB</small>
+              </div>
+              <div class="triangle position-absolute" style="top: 24px; left: 487px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
